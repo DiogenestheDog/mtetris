@@ -1,1 +1,1 @@
-console.log("I think I'm here");
+window.alert("boop");
