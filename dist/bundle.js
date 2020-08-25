@@ -93,7 +93,13 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("I think I'm here");
+window.addEventListener('DOMContentLoaded', function (ev) {
+  var c = document.getElementById("board");
+  var ctx = c.getContext("2d");
+  ctx.moveTo(0, 0);
+  ctx.lineTo(200, 100);
+  ctx.stroke();
+});
 
 /***/ })
 
